@@ -1,0 +1,32 @@
+#hotel .hotel-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#about img {
+    display: none;
+}
+
+#about .about-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+}
+
+#rates .rooms {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+.rooms img {
+    width: 100%;
+}
+
+#amenities .amenities-container2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.5rem;
+}
+
+
+.contact-form {
+    width: 80%;
+}

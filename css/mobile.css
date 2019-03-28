@@ -1,0 +1,74 @@
+/*Burger Nav*/
+#main-nav {
+    background: #fafafa;;
+}
+
+#main-nav .logo {
+    display: none;
+}
+
+#main-nav .social {
+    display: none;
+}
+
+#main-nav .container {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+#main-nav .nav-links li {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#main-nav .nav-links li a {
+    display: block;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+#main-nav .nav-links li a {
+    border-radius: 0;
+}
+
+#main-nav .container {
+    display: block;
+    max-width: 100%;
+    margin: 0;
+}
+
+.nav-links {
+    width: 100%;
+    display: none;
+    transition: all 0.5s ease;
+}
+
+.burger {
+    display: block;
+}
+
+.nav-active {
+    display: block;
+}
+
+#hotel .hotel-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#amenities .amenities-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+}
+
+#main-footer .footer-container {
+    display: block;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+}
